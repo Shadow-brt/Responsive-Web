@@ -33,8 +33,8 @@ h3 {
 h3,
 footer,
 footer p,
-.inspired-text h2, 
-.inspired-text p {
+.gallery__inspired--text h2, 
+.gallery__inspired--text p {
     color: var(--background);
 }
 
@@ -69,35 +69,35 @@ i {
 
 
 /* Header Start */
-.hero-container {
+.header__hero--container {
     margin: 2rem 1rem 7.5rem 1rem;
 }
 
-.hero-text {
+.header__hero--text {
     margin-top: 2rem;
 }
 
-.arrow, 
-.link {
+.header__arrow, 
+.header__link {
     align-items: center;
     display: flex;
     height: 4.5rem;
 }
 
-.arrow {
+.header__arrow {
     background-color: var(--accent);
     justify-content: center;
     width: 3.5rem;
 }
 
-.link {
+.header__link {
     background-color: var(--heading);
     justify-content: space-between;
     margin-top: 2rem;
     width: 16.25rem;
 }
 
-.link a {
+.header__link a {
     color: var(--background);
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 1.25rem;
@@ -108,16 +108,16 @@ i {
     text-transform: uppercase;
 }
 
-.link:hover,
-.link:hover .arrow {
+.header__link:hover,
+.header__link:hover .header__arrow {
     transition: all .3s ease-out;
 }
 
-.link:hover {
+.header__link:hover {
     background-color: var(--accent);
 }
 
-.link:hover .arrow {
+.header__link:hover .header__arrow {
     background-color: var(--heading);
 }
 /* Header End */
@@ -133,7 +133,7 @@ i {
   max-width: 100%;
 }
 
-.grid-1 img{
+.gallery__grid-1 img{
     margin-bottom: 1.5625rem;
 }
 
@@ -141,26 +141,26 @@ i {
     margin-bottom: 2rem;
 }
 
-.section-1 .container p{
+.section-1 .gallery__container p{
     margin-top: 1.3125rem;
 }
 
-.grid-2 img,
-.grid-3 img {
+.gallery__grid-2 img,
+.gallery__grid-3 img {
     margin-bottom: 1rem;
 }
 
-.inspired-text,
+.gallery__inspired--text,
 footer {
     background-color: var(--heading);
 }
 
-.inspired-text {  
+.gallery__inspired--text {  
     margin-bottom: 7.5rem;
     padding: 3rem 1.5rem;
 }
 
-.inspired-text p {
+.gallery__inspired--text p {
     margin-top: 1.5rem;
 }
 /*Section end */ 
@@ -214,14 +214,14 @@ footer a:hover {
         margin-bottom: 7.5rem;
     }
 
-    .hero-container {
+    .header__hero--container {
         margin-bottom: 0;
         margin-left: -3.125rem;
         margin-top: 9.0625rem;
         max-width: 21.1875rem;
     }
 
-    .container {
+    .gallery__container {
         margin-right: 4.25rem;
         max-width: 13.9375rem;
     }
@@ -229,7 +229,7 @@ footer a:hover {
 
     /* Section Start */
     .section-1 .container p, 
-    .inspired-text p {
+    .gallery__inspired--text p {
         margin-top: 1.5rem;
     }
     .section-wrapper {
@@ -245,11 +245,11 @@ footer a:hover {
     .section-1 {
         margin-bottom: .6875rem;
     }
-    .grid-1 img {
+    .gallery__grid-1 img {
         margin-bottom: 0;
     }
 
-    .grid-1 {
+    .gallery__grid-1 {
         order: 2;
     }
     
@@ -257,32 +257,32 @@ footer a:hover {
         margin-bottom: 7.5rem;
     }
 
-    .grid-2 img {
+    .gallery__grid-2 img {
         margin-right: .6875rem;
         width: 24.875rem;
     }
 
-    .grid-3 img{
+    .gallery__grid-3 img{
         margin-bottom: 5px;
     }
 
-    .inspired-text, 
-    .grid-2 img{
+    .gallery__inspired--text, 
+    .gallery__grid-2 img{
         margin-bottom: 0;
     }
 
-    .inspired-container {
+    .gallery__inspired--container {
         width: 17.5rem;
     } 
 
-    .inspired-text {
+    .gallery__inspired--text {
         padding: 5.25rem 1.8125rem;
     }
 
     /* Section End */
     
     /* Footer Start */
-    .footer-container {
+    .footer__container {
         display: flex;
         justify-content: space-between;
     }
@@ -330,13 +330,13 @@ footer a:hover {
     header {
         position: relative;
     }
-    .hero-img {
+    .header__hero--img {
         padding-left: 28.125rem;
         background-color: var(--heading);
         height: 50rem;
     }
     
-    .hero-container {
+    .header__hero--container {
         display: flex;
         justify-content: space-between;
         margin-left: 11.5%;
@@ -345,14 +345,14 @@ footer a:hover {
         position: absolute; 
     }
 
-    .hero-container h1 {
+    .header__hero--container h1 {
         color: var(--background);
         margin-right: 246px;
         mix-blend-mode: difference;
         width: 514px;
     }
 
-    .hero-text {
+    .header__hero--text {
         margin-top: 0;
         max-width: 350px;
     } 
@@ -361,26 +361,26 @@ footer a:hover {
     
     /* Section Start */
     .section-1,
-    .grid-3 img {
+    .gallery__grid-3 img {
         margin-bottom: 1.875rem;
     }
 
-    .container {
+    .gallery__container {
         margin-right: 7.8125rem;
         max-width: 21.875rem;
     }
 
     
-    .grid-2 img {
+    .gallery__grid-2 img {
         margin-right: 1.875rem;
         width: 39.6875rem;
     }
 
-    .inspired-container {
+    .gallery__inspired--container {
         width: 27.8125rem;
     }
 
-    .inspired-text {
+    .gallery__inspired--text {
         padding: 4.0625rem 3rem;
     }
 
