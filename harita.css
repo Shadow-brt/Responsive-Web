@@ -67,7 +67,7 @@ i {
     height: 50%; 
 }
 
-.map1 img{
+.picture--map img{
     width: 100%;
     display: block ;
     height: auto;
@@ -87,8 +87,8 @@ i {
     width: 208px;
 }
 
-.arrow-l,
-.home-link a{
+.arrow--left,
+.btn--homeLink a{
     align-items: center;
     display: flex;
     height: 4.5rem;
@@ -97,24 +97,24 @@ i {
 
 
 
-button:hover .arrow-l {
+button:hover .arrow--left {
     background-color: var(--heading);
 }
 
 button:hover a {
     background-color: var(--accent);
 }
-button:hover .arrow-l,
+button:hover .arrow--left,
 button:hover a {
     transition: all .3s ease-out;
 }
 
-.arrow-l {
+.arrow--left {
     background-color: var(--accent);
     width: 56px;
 }
 
-.home-link {
+.btn--homeLink {
     border: none;
     display: flex;
     top: 0;
@@ -136,13 +136,13 @@ main {
 }
 
 .info h2,
-.address {
+.text--address {
     margin-bottom: 20px;
 }
 
 
 .info,
-.footer-wrapper {
+.footer__wrapper {
     max-width: 21.4375rem;
 }
 
@@ -154,8 +154,8 @@ footer {
     padding: 3rem 1rem;
 }
 
-.col-1,
-.col-2 {
+.footer__column--1,
+.footer__column--2 {
     margin-bottom: 2.375rem;
 }
 
@@ -183,7 +183,7 @@ i:hover {
     /* HTML End*/
 
     /* Map Start*/  
-    .home-link a{
+    .btn--homeLink a{
         left: 2.4375rem;
     }
     /* Map Start*/
@@ -211,7 +211,7 @@ i:hover {
     footer {
         padding: 3.5rem 2.4375rem;
     }
-    .footer-wrapper {
+    .footer__wrapper {
         display: flex;
         justify-content: space-between;
         max-width: 689px;
@@ -220,7 +220,7 @@ i:hover {
         font-size: 1rem;
         line-height: 1.625rem;
     }
-    .col-2 {
+    .footer__column--2 {
         width: 17.5625rem;
     }
     /* Footer End*/
@@ -241,7 +241,7 @@ i:hover {
       /* HTML End*/
 
       /* Map Start */
-      .home-link {
+      .btn--homeLink {
         left: 9.75rem;
         }
       /* Map End */
@@ -267,11 +267,11 @@ i:hover {
         justify-content: center;
       }
 
-      .footer-wrapper {
+      .footer__wrapper {
           max-width: 69.375rem;
       }
 
-      .col-2 {
+      .footer__column--2 {
         width: 26.875rem;
       }
 
